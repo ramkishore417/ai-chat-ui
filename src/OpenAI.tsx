@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { getWelcomeMessage } from "./api";
+import { getWelcomeMessage } from "./helpers/helpers";
 
 export default function OpenAI(): JSX.Element {
     const [isLoading, setIsLoading] = useState(true);
